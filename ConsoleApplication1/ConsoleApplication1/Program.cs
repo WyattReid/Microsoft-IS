@@ -10,11 +10,12 @@ namespace ProgramExercise1
     {
         static void Main(string[] args)
         {
+
             string name = "";
             string yearsOld = "";
-            string output = String.Format("{0} is {1} years old today!");
+            string output = String.Format("{0} is {1} years old today!", name, yearsOld);
 
-            Console.WriteLine(hello);
+            Console.WriteLine(output);
 
             Console.Read();
         }
@@ -22,12 +23,18 @@ namespace ProgramExercise1
 
     public class GetAge
     {
-        string name = "Wyatt";
-        DateTime birthdate = DateTime.Parse("08/19/1991");
+        public string name { get; set; }
+        public DateTime birthdate { get; set; }
+        public DateTime age { get; set; }
 
-        public string getName
-        {
-            get;
-        }
+        public string name = "Wyatt Reid";
+        birthdate = DateTime.Parse("08/19/1991");
+        DateTime age = ((DateTime.Now - birthdate).TotalDays / 365d);
+
+        public string getAge() { return age; }
+
+        
+
+        
     }
 }
