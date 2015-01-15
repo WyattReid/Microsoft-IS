@@ -4,8 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace ProgramExercise1
 {
+
 
     public class Person
     {
@@ -25,8 +27,8 @@ namespace ProgramExercise1
             return age.ToString();
         }
 
-
     }
+
 
     class Program
     {
