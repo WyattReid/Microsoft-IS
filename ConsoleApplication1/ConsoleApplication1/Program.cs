@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProgramExercise1
 {
 
-    /* This is a test of VB 2015 Commits */
+
     public class Person
     {
         public string name;
@@ -25,7 +25,6 @@ namespace ProgramExercise1
             age = (int) ((DateTime.Now - birthday).TotalDays / 365d);
             return age.ToString();
         }
-
     }
 
 
@@ -43,5 +42,4 @@ namespace ProgramExercise1
             Console.Read();
         }
     }
-
 }
