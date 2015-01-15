@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ProgramExercise1
 {
@@ -35,7 +31,8 @@ namespace ProgramExercise1
         {
             Person wyatt = new Person("Wyatt","08/19/1991");
 
-            string output = String.Format("{0} is {1} years old today!", wyatt.name , wyatt.getAge());
+            string output = string.Format("{0} is {1} years old today!",
+                wyatt.name , wyatt.getAge());
 
             Console.WriteLine(output);
 
