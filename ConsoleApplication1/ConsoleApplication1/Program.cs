@@ -11,7 +11,7 @@ namespace ProgramExercise1
     {
         public string name;
         private int age;
-        DateTime birthday;
+        private DateTime birthday;
 
         public Person(string argName, string bd)
         {
