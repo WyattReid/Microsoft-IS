@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ProgramExercise1
 {
 
-
+    /* This is a test of VB 2015 Commits */
     public class Person
     {
         public string name;
