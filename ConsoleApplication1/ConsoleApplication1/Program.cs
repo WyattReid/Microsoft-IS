@@ -6,14 +6,39 @@ using System.Threading.Tasks;
 
 namespace ProgramExercise1
 {
+
+    public class Person
+    {
+        public string name;
+        private int age;
+        DateTime birthday;
+
+        public Person(string argName, string bd)
+        {
+            name = argName;
+            birthday = DateTime.Parse(bd);
+        }
+
+        public string getAge()
+        {
+            age = (int) ((DateTime.Now - birthday).TotalDays / 365d);
+            return age.ToString();
+        }
+
+
+    }
+
     class Program
     {
+
         static void Main(string[] args)
         {
 
-            string name = "";
-            string yearsOld = "";
-            string output = String.Format("{0} is {1} years old today!", name, yearsOld);
+            Person wyatt = new Person("Wyatt","08/19/1991");
+
+            string currentName = wyatt.name;
+            string currentAge = wyatt.getAge();
+            string output = String.Format("{0} is {1} years old today!", currentName , currentAge);
 
             Console.WriteLine(output);
 
@@ -21,20 +46,4 @@ namespace ProgramExercise1
         }
     }
 
-    public class GetAge
-    {
-        public string name { get; set; }
-        public DateTime birthdate { get; set; }
-        public DateTime age { get; set; }
-
-        public string name = "Wyatt Reid";
-        birthdate = DateTime.Parse("08/19/1991");
-        DateTime age = ((DateTime.Now - birthdate).TotalDays / 365d);
-
-        public string getAge() { return age; }
-
-        
-
-        
-    }
 }
