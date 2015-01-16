@@ -1,25 +1,25 @@
 ﻿using System;
 
-namespace ProgramExercise1
+namespace ConsoleApplication1
 {
 
 
     public class Person
     {
-        public string name;
-        private int age;
-        private DateTime birthday;
+        public string Name;
+        private int _age;
+        private readonly DateTime _birthday;
 
         public Person(string argName, string bd)
         {
-            name = argName;
-            birthday = DateTime.Parse(bd);
+            Name = argName;
+            _birthday = DateTime.Parse(bd);
         }
 
-        public string getAge()
+        public string GetAge()
         {
-            age = (int) ((DateTime.Now - birthday).TotalDays / 365d);
-            return age.ToString();
+            _age = (int) ((DateTime.Now - _birthday).TotalDays / 365d);
+            return _age.ToString();
         }
     }
 
@@ -29,10 +29,10 @@ namespace ProgramExercise1
 
         static void Main(string[] args)
         {
-            Person wyatt = new Person("Wyatt","08/19/1991");
+            var wyatt = new Person("Wyatt","08/19/1991");
 
-            string output = string.Format("{0} is {1} years old today!",
-                wyatt.name , wyatt.getAge());
+            var output = string.Format("{0} is {1} years old today!",
+                wyatt.Name , wyatt.GetAge());
 
             Console.WriteLine(output);
 
