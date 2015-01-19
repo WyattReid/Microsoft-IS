@@ -14,11 +14,11 @@ namespace ConsoleApplication1
         {
             Name = argName;
             _birthday = DateTime.Parse(bd);
+            _age = (int)((DateTime.Now - _birthday).TotalDays / 365d);
         }
 
         public string GetAge()
         {
-            _age = (int) ((DateTime.Now - _birthday).TotalDays / 365d);
             return _age.ToString();
         }
     }
