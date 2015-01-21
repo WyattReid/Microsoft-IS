@@ -7,14 +7,13 @@ namespace ConsoleApplication1
     public class Person
     {
         public string Name;
-        private int _age;
-        private readonly DateTime _birthday;
+        private readonly int _age;
 
         public Person(string argName, string bd)
         {
             Name = argName;
-            _birthday = DateTime.Parse(bd);
-            _age = (int)((DateTime.Now - _birthday).TotalDays / 365d);
+            var birthday = DateTime.Parse(bd);
+            _age = (int)((DateTime.Now - birthday).TotalDays / 365d);
         }
 
         public string GetAge()
@@ -30,7 +29,6 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var wyatt = new Person("Wyatt","08/19/1991");
-
             var output = string.Format("{0} is {1} years old today!",
                 wyatt.Name , wyatt.GetAge());
 
