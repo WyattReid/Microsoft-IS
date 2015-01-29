@@ -7,9 +7,16 @@
 <head runat="server">
     <title>Lab1</title>
     <style type="text/css">
-        #form1 {
-            width: 30%;
+        @import "//fonts.googleapis.com/css?family=Montserrat:300,400,700";
+        * {
+            font-family: Montserrat
         }
+        h1 {
+            color:blue
+        }
+         #form1 {
+             width: 40%;
+         }
     </style>
 </head>
 <body>
@@ -30,7 +37,7 @@
         
 
     <div style="float: left; width:100%">
-        <h2 style="color: blue">401k Future Value Calculator</h2>
+        <h1 >401k Future Value Calculator</h1>
     </div>
         <div style="width: 50%; float:left">
             Monthly Investment
@@ -51,7 +58,10 @@
             <asp:TextBox ID="txtNumYears" runat="server"></asp:TextBox>
         </div>
         <div style="width: 50%; float: left">
-            Future Value: <asp:Label ID="lblCalcValue" runat="server"/>
+            Future Value
+        </div>
+        <div style ="width: 40%; float:right">
+            <asp:Label ID="lblCalcValue" runat="server"/>
         </div>
         
         <div style="width: 100%; padding-top: 1em; float: left">
