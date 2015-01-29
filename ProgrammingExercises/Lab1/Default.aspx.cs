@@ -11,6 +11,7 @@ namespace Lab1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (!IsPostBack)
             {
                 for (var i = 100; i <= 1000; i += 100)
