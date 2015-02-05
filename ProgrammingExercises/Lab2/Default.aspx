@@ -6,7 +6,7 @@
         <h1>Blogging For Fun</h1>
         <p class="lead">This is a great place to blog and view blogs for building great Web sites and Web applications using HTML, CSS, and JavaScript.
                         <br/><br/> 
-                        Unauthenticated users may browse posts only. To post, you must login first.
+                        <small><strong>Unauthenticated users may only browse posts</strong></small>
         </p>
         <p>
            <a href="/CreatePost.aspx" class="btn btn-primary btn-lg">Post Now &raquo;</a>
@@ -14,8 +14,8 @@
     </div>
 
 
-    <div class="page-header text-center">
-        <strong><h1>Blog Roll</h1></strong>
+    <div class="page-header text-center well well-lg">
+        <h1><strong>Blog Roll</strong></h1>
     </div>
 
     <div class="row">
