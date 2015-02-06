@@ -9,7 +9,7 @@
                         <small><strong>Unauthenticated users may only browse posts</strong></small>
         </p>
         <p>
-           <a href="/CreatePost.aspx" class="btn btn-primary btn-lg">Post Now &raquo;</a>
+           <a href="/CreatePost.aspx" class="btn btn-primary btn-lg btn-goPost">Post Now &raquo;</a>
         </p>
     </div>
 
