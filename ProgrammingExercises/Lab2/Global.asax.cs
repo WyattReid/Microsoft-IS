@@ -32,7 +32,7 @@ namespace Lab2
                 new BlogPost(){
                     PostTitle = "WebDesign"
                     ,
-                    PostBody = "Learning Microsoft Visual Studio can be fun, but like anything else, it can be challenging. "
+                    PostBody = "Learning Microsoft Visual Studio can be challenging. "
                     ,
                     PostDate = DateTime.Parse("1/30/2015")
                     ,

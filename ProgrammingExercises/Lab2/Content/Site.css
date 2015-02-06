@@ -1,5 +1,7 @@
 ﻿/* Move down content because we have a fixed navbar that is 50px tall */
 body {
+
+    background-color: beige;
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -30,9 +32,20 @@ input[type="select"] {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .jumbotron {
+        color: blanchedalmond;
         margin-top: 20px;
     }
     .body-content {
         padding: 0;
     }
 }
+
+    .jumbotron {
+        background-color: darkgreen;
+    }
+
+    .navbar {
+        background-color: saddlebrown;
+        color: darkkhaki;
+
+    }

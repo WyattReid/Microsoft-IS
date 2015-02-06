@@ -13,8 +13,8 @@
         </p>
     </div>
 
-
-    <div class="page-header text-center well well-lg">
+    <div class="well outerwell">
+    <div class="page-header text-center well innerwell">
         <h1><strong>Blog Roll</strong></h1>
     </div>
 
@@ -41,5 +41,6 @@
     </asp:ListView>
 
     </div>
+        </div>
 
 </asp:Content>

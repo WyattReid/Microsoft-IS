@@ -4,7 +4,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
        
     <div class="page-header">
-        <h1>Looking to post on the blog... <small>look no further</small></h1>
+        <h1>Wanting to post on the blog...? <small>look no further</small></h1>
     </div>
 
     <div class="form-group">
