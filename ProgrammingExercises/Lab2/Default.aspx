@@ -13,9 +13,9 @@
         </p>
     </div>
 
-    <div class="well outerwell">
-    <div class="page-header text-center well innerwell">
-        <h1><strong>Blog Roll</strong></h1>
+    <div class="well outerWell">
+    <div class="page-header text-center well innerWell">
+        Blog Roll
     </div>
 
     <div class="row">
