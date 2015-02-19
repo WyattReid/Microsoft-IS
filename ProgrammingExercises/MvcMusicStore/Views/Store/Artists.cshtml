@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Artists";
+}
+
+<h2>Artists</h2>
+<ul>
+    @foreach (string artist in Model)
+    {
+        <li>
+            @artist
+        </li>
+    }
+</ul>

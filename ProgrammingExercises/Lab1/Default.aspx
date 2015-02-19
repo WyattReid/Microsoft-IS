@@ -35,7 +35,7 @@
         <div style="width: 50%; float:left">
             Monthly Investment
         </div>
-        <div style=" width: 40%; float: right;">
+        <div style= "width: 40%; float: right;">
             <asp:DropDownList ID="ddlMonthlyInvestment" runat="server"></asp:DropDownList>
         </div>
         <div style="width: 50%; float: left">
