@@ -53,28 +53,28 @@ namespace MvcMusicStore.Controllers
 
             if (genre == "Country")
             {
-                // Create a list of artists
-                artists = new List<string> { "George Strait", "Garth", "Toby Keith", "Brad Paisley", "Brantley Gilbert" };
+                // Create a list of Country artists
+                artists = new List<string> { "George Strait", "Garth Brooks", "Toby Keith", "Brad Paisley", "Brantley Gilbert" };
             }
             else if (genre == "Rock")
             {
-                // Create a list of artists
+                // Create a list of Rock artists
                 artists = new List<string> { "Aerosmith", "AC/DC", "Nickelback", "Nirvana", "Rob Thomas" };
             }
             else if (genre == "Jazz")
             {
-                // Create a list of artists
-                artists = new List<string> { "Miles Davis", "Buddy Guy", "Aretha", "Pop", "Barry" };
+                // Create a list of Jazz artists
+                artists = new List<string> { "Miles Davis", "Buddy Guy", "Louis Armstrong", "John Coltrane", "Sonny Rollins" };
             }
             else if (genre == "Pop")
             {
-                // Create a list of artists
-                artists = new List<string> { "Lady Gaga", "Ariana G", "Flo-Rida", "NSync", "Disco" };
+                // Create a list of Pop artists
+                artists = new List<string> { "Lady Gaga", "Ariana Grande", "Flo-Rida", "NSync", "Taylor Swift" };
             }
             else if (genre == "Disco")
             {
-                // Create a list of artists
-                artists = new List<string> { "Jim", "Jazz", "Country", "Pop", "Disco" };
+                // Create a list of Disco artists
+                artists = new List<string> { "Marvin Gaye", "Michael Jackson", "Donna Summer", "Barry White", "Diana Ross" };
             }
 
 
